@@ -1,0 +1,8 @@
+<launch>
+<include file="$(find control)/launch/heave_controller.launch"/>
+<include file="$(find control)/launch/roll_controller.launch"/>
+<include file="$(find control)/launch/pitch_controller.launch"/>
+<include file="$(find control)/launch/yaw_controller.launch"/>
+<include file="$(find control)/launch/surge_controller.launch"/>
+<include file="$(find control)/launch/sway_controller.launch"/>
+</launch>
