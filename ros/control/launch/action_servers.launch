@@ -1,0 +1,12 @@
+<launch>
+<node pkg="control" type="rollServer.py" name="rollServer" output="screen"/>
+<node pkg="control" type="pitchServer.py" name="pitchServer" output="screen"/>
+<node pkg="control" type="yawServer.py" name="yawServer" output="screen"/>
+<node pkg="control" type="surgeServer.py" name="surgeServer.py" output="screen"/>
+<node pkg="control" type="swayServer.py" name="swayServer.py" output="screen"/>
+<node pkg="control" type="heaveServer.py" name="heaveServer.py" output="screen"/>
+</launch>
+
+
+
+

@@ -1,0 +1,8 @@
+#goal definition
+float32 heave_setpoint
+---
+#result definition
+float32 heave_final
+---
+#feedback
+float32 heave_error

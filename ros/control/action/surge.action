@@ -1,0 +1,8 @@
+#goal definition
+float32 surge_setpoint
+---
+#result definition
+float32 surge_final
+---
+#feedback
+float32 surge_error

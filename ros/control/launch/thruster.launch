@@ -1,0 +1,3 @@
+<launch>
+<node name="thruster" pkg="control" type="thruster.py" output="screen"/>
+</launch>

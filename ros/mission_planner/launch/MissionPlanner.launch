@@ -1,0 +1,16 @@
+<!-- Mission Planner
+
+Control:
+thruster
+servers
+controllers
+
+-->
+
+<launch>
+<node pkg="mission_planner" type="mission_planner.py" name="mission_planner" output="screen"/>
+<include file="$(find control)/launch/controllers.launch"/>
+<include file="$(find control)/launch/thruster.launch"/>
+<include file="$(find control)/launch/action_servers.launch"/>
+</launch>
+

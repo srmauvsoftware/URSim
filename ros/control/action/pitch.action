@@ -1,0 +1,8 @@
+#goal definition
+float32 pitch_setpoint
+---
+#result definition
+float32 pitch_final
+---
+#feedback
+float32 pitch_error
