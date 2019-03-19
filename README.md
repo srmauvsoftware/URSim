@@ -1,8 +1,9 @@
 <!-- <img src='docs/assets/unity_scene.png' align="right" width=200> -->
 # URSim
-### [Project page](https://srmauvsoftware.github.io/ursim/) |   [Paper]()
 
 Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
+
+### [Project page](https://srmauvsoftware.github.io/ursim/) |   [Paper]()
 
 <img src="docs/assets/unity_scene.png" width="1000px"/>
 
