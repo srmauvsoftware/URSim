@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3300445795cdc471180cfe1d45bea19b
-timeCreated: 1541276241
+guid: cfd9701f266c9496689043aea22808a7
+timeCreated: 1553252929
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,9 +9,7 @@ ModelImporter:
     100002: //RootNode
     400000: default
     400002: //RootNode
-    2100000: Material.001
-    2100002: Material.003
-    2100004: defaultMat
+    2100000: defaultMat
     2300000: default
     3300000: default
     4300000: default
@@ -19,18 +17,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: fc205786b4fef4b7c84c4dbb73b2892e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 17ba879d4b8404ff290f4550209796ef, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: defaultMat
-    second: {fileID: 2100000, guid: 888e8dbcc5d3f4407898dd700deddba8, type: 2}
+    second: {fileID: 2100000, guid: a4538fdf802be417b8ef00217d7bdf20, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
