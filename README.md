@@ -19,8 +19,8 @@ Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
 - 
 - Clone this repo:
 ```bash
-git clone https://github.com/junyanz/CycleGAN
-cd CycleGAN
+git clone https://github.com/srmauvsoftware/ursim
+cd ursim
 ```
 
 - Build packages:
