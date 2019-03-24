@@ -5,7 +5,7 @@ Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
 <br>
 (to be presented at [UT'19 IEEE-OES conference](http://ut19.tori.org.tw/webpage/index.aspx) on April 17 '19)
 
-### [Project page](https://srmauvsoftware.github.io/ursim/) |   [Paper]()
+### [Project page](https://srmauvsoftware.github.io/URSim/) |   [Paper]()
 
 <img src="docs/assets/unity_scene.png" width="1000px"/>
 
@@ -30,7 +30,7 @@ catkin_make
 ```
 
 ## Citation
-If you use this project for your research, please cite our [paper](https://srmauvsoftware.github.io/ursim/):
+If you use this project for your research, please cite our [paper](https://srmauvsoftware.github.io/URSim/):
 
 ```
 @inproceedings{
