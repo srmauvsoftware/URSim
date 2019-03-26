@@ -1,5 +1,6 @@
 <!-- <img src='docs/assets/unity_scene.png' align="right" width=200> -->
 # URSim
+<div><i><b>This repository is under construction.</b></i></div>
 
 Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
 <br>
