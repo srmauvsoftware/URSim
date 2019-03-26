@@ -16,7 +16,6 @@ Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
 
 ## Getting Started
 ### Installation and setup
-- 
 - Clone this repo:
 ```bash
 git clone https://github.com/srmauvsoftware/ursim
