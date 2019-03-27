@@ -2,6 +2,7 @@
 layout: default
 title: Navigating the repository
 nav_order: 2
+
 has_children: true
 permalink: /docs/repo_navigation
 ---
