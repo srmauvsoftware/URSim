@@ -16,9 +16,8 @@
 title: URSim Docs
 description: Documentation for SRM Autonomous Underwater Vehicle and URSim
 
-baseurl: "/just-the-docs/" # the subpath of your site, e.g. /blog
-url: "https://srmauv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+baseurl: "/URSim" # the subpath of your site, e.g. /blog
+url: "https://srmauv.github.io" # the base hostname & protocol for your site, e.g. http://example.com	url: "https://srmauvsoftware.github.io" # the base hostname & protocol for your site, e.g. http://example.com # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
