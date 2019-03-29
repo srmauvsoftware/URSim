@@ -3,105 +3,98 @@
     "id": "1",
     "title": "Assets",
     "content": "assets stuff all about assets Caustics Libraries/ROSBridgeLib CustomMessages geometry_msgs sensor_msgs std_msgs ROSBridgeMsg.cs ROSBridgePublisher.cs Materials skybox/sky.mat Bubble.mat BubbleMaterial.mat Models Vehicle.obj defaultMat.mat gate.obj green 1.obj red 1.obj Prefabs Water/Materials Water/Models Water/Prefabs Water/Scripts Water/Shaders Water/Textures Publishers CompressedImagePublisher.cs DepthPublisher.cs HeadingPublisher.cs imuPublisher.cs Scenes Simulation.unity Testbed.unity Scripts AUV.cs BoatPhysics.cs Buoyancy.cs Collision.cs Surface.cs Teleop.cs WaterController.cs Standard Assets CrossPlatformInput/Prefabs CrossPlatformInput/Scripts CrossPlatformInput/Sprites Editor/ Effects/ Environment/ Utility/ Subscribers DepthThrusterCallback.cs ImuSubscriberCallback.cs VectorThrusterCallback.cs Caustics caustic renders bmp images Libraries/ROSBridgeLib CustomMessages geometry_msgs sensor_msgs std_msgs ROSBridgeMsg.cs ROSBridgePublisher.cs Materials The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). skybox/sky.mat Bubble.mat BubbleMaterial.mat Models The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). Vehicle.obj defaultMat.mat gate.obj green 1.obj red 1.obj Prefabs Water/Materials Water/Models Water/Prefabs Water/Scripts Water/Shaders Water/Textures The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). Publishers The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). CompressedImagePublisher.cs DepthPublisher.cs HeadingPublisher.cs imuPublisher.cs Scenes The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). Simulation.unity Testbed.unity Scripts The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). AUV.cs BoatPhysics.cs Buoyancy.cs Collision.cs Surface.cs Teleop.cs WaterController.cs Standard Assets The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). CrossPlatformInput/Prefabs CrossPlatformInput/Scripts CrossPlatformInput/Sprites Editor/ Effects/ Environment/ Utility/ Subscribers The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). DepthThrusterCallback.cs ImuSubscriberCallback.cs VectorThrusterCallback.cs",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/unity/Assets",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/unity/Assets",
     "relUrl": "/docs/repo_navigation/unity/Assets"
   },
   "2": {
     "id": "2",
     "title": "ProjectSettings",
     "content": "assets stuff all about assets ProjectSettings AudioManager.asset ClusterInputManager.asset DynamicsManager.asset EditorSettings.asset NetworkManager.asset TimeManager.asset ProjectSettings AudioManager.asset ClusterInputManager.asset DynamicsManager.asset EditorSettings.asset NetworkManager.asset TimeManager.asset",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/unity/ProjectSettings",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/unity/ProjectSettings",
     "relUrl": "/docs/repo_navigation/unity/ProjectSettings"
   },
   "3": {
     "id": "3",
     "title": "communication",
     "content": "Communication stuff has comm stuff scripts controlClients.py scripts The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). controlClients.py",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros/src/communication",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src/communication",
     "relUrl": "/docs/repo_navigation/ros/src/communication"
   },
   "4": {
     "id": "4",
     "title": "control",
     "content": "Control stuff has control stuff action heave.action roll.action pitch.action yaw.action surge.action sway.action cfg thruster.cfg launch msg thruster.msg scripts thruster.py servers roll.py pitch.py yaw.py heave.py sway.py surge.py action The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). heave.action roll.action pitch.action yaw.action surge.action sway.action cfg The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). thruster.cfg this is the thruster config file launch The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). msg The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). thruster.msg scripts The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). thruster.py servers The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). roll.py pitch.py yaw.py heave.py sway.py surge.py",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros/src/control",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src/control",
     "relUrl": "/docs/repo_navigation/ros/src/control"
   },
   "5": {
     "id": "5",
     "title": "Developer",
     "content": "UI Components To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.",
-    "url": "http://localhost:4000/just-the-docs/docs/developer",
+    "url": "http://localhost:4000/URSim/docs/developer",
     "relUrl": "/docs/developer"
   },
   "6": {
     "id": "6",
     "title": "Home",
-    "content": "URSim | Documentation Get started now View it on GitHub",
-    "url": "http://localhost:4000/just-the-docs/",
+    "content": "URSim | Documentation View URSim on GitHub",
+    "url": "http://localhost:4000/URSim/",
     "relUrl": "/"
   },
   "7": {
     "id": "7",
     "title": "mission planner",
     "content": "mission planner few lines on mission planner launch MissionPlanner.launch scripts Heave.py Pitch.py Roll.py Sink.py Surge.py Sway.py Yaw.py launch The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). MissionPlanner.launch scripts The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). Heave.py Pitch.py Roll.py Sink.py Surge.py Sway.py Yaw.py",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros/src/mission_planner",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src/mission_planner",
     "relUrl": "/docs/repo_navigation/ros/src/mission_planner"
   },
   "8": {
     "id": "8",
-    "title": "Setup and Installation",
-    "content": "Prerequisites Install Ubuntu 16.04. Click here to download Ubuntu. You can find the installation instructions here. Install ROS Kinetic. Instructions for installation can be found here. Install Unity3D Download and install Unity3D from here. Install Rosbridge",
-    "url": "http://localhost:4000/just-the-docs/docs/user/prerequisites/",
-    "relUrl": "/docs/user/prerequisites/"
+    "title": "Navigating the repository",
+    "content": "What is where in the repository Description of every file in every folder in the repository can be found by navigating down this tree.",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation",
+    "relUrl": "/docs/repo_navigation"
   },
   "9": {
     "id": "9",
-    "title": "Navigating the repository",
-    "content": "What is where in the repository Description of every file in every folder in the repository can be found by navigating down this tree.",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation",
-    "relUrl": "/docs/repo_navigation"
+    "title": "ros",
+    "content": "ROS contains all the ros code files.",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros",
+    "relUrl": "/docs/repo_navigation/ros"
   },
   "10": {
     "id": "10",
-    "title": "ros",
-    "content": "ROS contains all the ros code files.",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros",
-    "relUrl": "/docs/repo_navigation/ros"
+    "title": "Search",
+    "content": "Search Set up search Generate search index Enable search in configuration Hiding pages from search Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: Page title Page content Page URL Set up search Generate search index Before you can use search, you must initialize the feature by running this rake command that comes with just-the-docs: $ bundle exec just-the-docs rake search:init This command creates the search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the assets/js/ directory of your Jekyll site with this content: {% raw %} { {% for page in site.html_pages %}{% if page.search_exclude != true %}&quot;{{ forloop.index0 }}&quot;: { &quot;id&quot;: &quot;{{ forloop.index0 }}&quot;, &quot;title&quot;: &quot;{{ page.title | replace: &#39;&amp;amp;&#39;, &#39;&amp;&#39; }}&quot;, &quot;content&quot;: &quot;{{ page.content | markdownify | strip_html | escape_once | remove: &#39;&#39; | remove: &#39;&#39; | remove: &#39;&#39; | replace: &#39; &#39;, &#39; &#39; | normalize_whitespace }}&quot;, &quot;url&quot;: &quot;{{ page.url | absolute_url }}&quot;, &quot;relUrl&quot;: &quot;{{ page.url }}&quot; }{% unless forloop.last %},{% endunless %} {% endif %}{% endfor %} }{% endraw %} Note: If you don’t run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site’s content). Enable search in configuration In your site’s _config.yml, enable search: # Enable or disable the site search search_enabled: true Hiding pages from search Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: Example layout: default title: Page not found nav_exclude: true search_exclude: true",
+    "url": "http://localhost:4000/URSim/docs/search/",
+    "relUrl": "/docs/search/"
   },
   "11": {
     "id": "11",
-    "title": "Search",
-    "content": "Search Set up search Generate search index Enable search in configuration Hiding pages from search Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: Page title Page content Page URL Set up search Generate search index Before you can use search, you must initialize the feature by running this rake command that comes with just-the-docs: $ bundle exec just-the-docs rake search:init This command creates the search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the assets/js/ directory of your Jekyll site with this content: {% raw %} { {% for page in site.html_pages %}{% if page.search_exclude != true %}&quot;{{ forloop.index0 }}&quot;: { &quot;id&quot;: &quot;{{ forloop.index0 }}&quot;, &quot;title&quot;: &quot;{{ page.title | replace: &#39;&amp;amp;&#39;, &#39;&amp;&#39; }}&quot;, &quot;content&quot;: &quot;{{ page.content | markdownify | strip_html | escape_once | remove: &#39;&#39; | remove: &#39;&#39; | remove: &#39;&#39; | replace: &#39; &#39;, &#39; &#39; | normalize_whitespace }}&quot;, &quot;url&quot;: &quot;{{ page.url | absolute_url }}&quot;, &quot;relUrl&quot;: &quot;{{ page.url }}&quot; }{% unless forloop.last %},{% endunless %} {% endif %}{% endfor %} }{% endraw %} Note: If you don’t run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site’s content). Enable search in configuration In your site’s _config.yml, enable search: # Enable or disable the site search search_enabled: true Hiding pages from search Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: Example layout: default title: Page not found nav_exclude: true search_exclude: true",
-    "url": "http://localhost:4000/just-the-docs/docs/search/",
-    "relUrl": "/docs/search/"
+    "title": "sensors",
+    "content": "sensor stuff has sensor stuff…as of now empty",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src",
+    "relUrl": "/docs/repo_navigation/ros/src"
   },
   "12": {
     "id": "12",
-    "title": "sensors",
-    "content": "sensor stuff has sensor stuff…as of now empty",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros/src",
-    "relUrl": "/docs/repo_navigation/ros/src"
+    "title": "unity",
+    "content": "ROS contains all the ros code files.",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/unity",
+    "relUrl": "/docs/repo_navigation/unity"
   },
   "13": {
     "id": "13",
-    "title": "unity",
-    "content": "ROS contains all the ros code files.",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/unity",
-    "relUrl": "/docs/repo_navigation/unity"
+    "title": "User",
+    "content": "Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.",
+    "url": "http://localhost:4000/URSim/docs/user/",
+    "relUrl": "/docs/user/"
   },
   "14": {
     "id": "14",
-    "title": "User",
-    "content": "Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.",
-    "url": "http://localhost:4000/just-the-docs/docs/user/",
-    "relUrl": "/docs/user/"
-  },
-  "15": {
-    "id": "15",
     "title": "vision",
     "content": "vision stuff has vision stuff…as of now empty",
-    "url": "http://localhost:4000/just-the-docs/docs/repo_navigation/ros/src",
+    "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src",
     "relUrl": "/docs/repo_navigation/ros/src"
   }
   
