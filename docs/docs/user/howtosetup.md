@@ -31,16 +31,13 @@ parmalink: docs/user/
        `cd /path/to/repo/ros ~/catkin_ws/src`       
     4. Install rosbridge:    
        `sudo apt-get install ros-kinetic-rosbridge-suite`                  
+    5. Port forwarding:         
+        Open your web browser and enter the url for opening the configuration page of your router somewhat similar to the examples below:    
+         `TP Link Routers: http://192.168.0.1   `        
+         `Asus Routers: http://192.168.1.1     `   
 
-
-         
-5. **Port forwarding**
-    1. Open your web browser and enter the url for opening the configuration page of your router somewhat similar to the examples below:    
-       `TP Link Routers: http://192.168.0.1   `        
-       `Asus Routers: http://192.168.1.1     `      
-    2. Find the option for port forwarding. It could be in security settings or advanced setting. 
-    3. Add a new port and ip address to forward and save the settings.
-    4. Restart the router.
+        Find the option for port forwarding. It could be in security settings or advanced setting. 
+        Add a new port and ip address to forward and save the settings then restart the router. 
           
 
 5. **Setting up URSim**    
