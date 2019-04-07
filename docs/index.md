@@ -17,7 +17,7 @@ permalink: /
 [View our Paper](https://github.com/srmauvsoftware/URSim/blob/master){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 
-<div style="text-align: justify"> You have arrived at the documentation of URSim - an open source 3D underwater simulation framework for Unmanned Underwater Vehicles (UUVs) developed using Robotics Operating System (ROS) and a real-time game engine called Unity3D. <br><br>URSim provides the user an intuitive way to simulate underwater vehicles and robots. The software architecture is adaptive to algorithms for control systems, image processing, navigation and manipulation. </div>
+<div style="text-align: justify"> You have arrived at the documentation of URSim - an open source 3D underwater simulation framework for Unmanned Underwater Vehicles (UUVs) developed using Robotics Operating System (ROS) and a real-time game engine called Unity3D. <br><br>URSim provides the user an intuitive way to simulate underwater vehicles and robots. The software architecture is adaptive to algorithms for control systems, image processing, navigation and manipulation. </div><br> Our paper - Simulator for Unmanned Underwater Vehicles using ROS and Unity3D to be presented at UT'19 IEEE-OES conference on April 17 '19 
 
 ## URSim features
 1. Feedback control system simulation

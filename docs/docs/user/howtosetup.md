@@ -47,6 +47,11 @@ parmalink: docs/user/
        `ros = new ROSBridgeWebSocketConnection ("<ip address>", <port>);`
        for example:     
        `ros = new ROSBridgeWebSocketConnection ("ws://192.168.0.100", 9090);`
+
+6. **Running the simulation**
+	1. Launch Unity3D and after signing in/skipping, click on 'open' icon at the top right of the window.
+	2. Navigate to  `/path/to/repo/URSim-master/unity/` to select the project.
+    3. When the project opens, click on `file->open scene` and navigate to `\pathtorepo\URSim-master\unity\Assets\Scenes` and select the scene to run. 
         
 
 
