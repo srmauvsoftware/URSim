@@ -36,62 +36,76 @@
   },
   "6": {
     "id": "6",
+    "title": "How to run",
+    "content": "",
+    "url": "http://localhost:4000/URSim/docs/user/howtorun/",
+    "relUrl": "/docs/user/howtorun/"
+  },
+  "7": {
+    "id": "7",
+    "title": "Setup",
+    "content": "Setup Ubuntu 16.04LTS Instructions for installing Ubuntu 16.04LTS can be found here. Please stick to Ubuntu 16.Xs only. ROS Instructions for installing ROS Kinetic Kame can be found here. Please stick to ROS Kinetic Kame only. Unity You can download Unity3D from here and install it by running the executable file downloaded. Setting up repository In your Ubuntu terminal enter the following command to git clone the URSim repository: git clone https://github.com/srmauvsoftware/URSim.git Source your environnment: source /opt/ros/kinetic/setup.bash Create a new catkin workspace: mkdir -p ~/catkin_ws/src cd ~/catkin_ws/ catkin_make Copy the contents of ros directory to the new workspace: cd /path/to/repo/ros ~/catkin_ws/src Install rosbridge: sudo apt-get install ros-kinetic-rosbridge-suite Port forwarding Open your web browser and enter the url for opening the configuration page of your router somewhat similar to the examples below: TP Link Routers: http://192.168.0.1 Asus Routers: http://192.168.1.1 Find the option for port forwarding. It could be in security settings or advanced setting. Add a new port and ip address to forward and save the settings. Restart the router. Setting up URSim Download the repository from here. Extract the downloaded zip file. Navigate to /path/to/repo/URSim-master/unity/Assets/Scripts and open the file AUV.cs. Edit the ip address and the forwarded port of your ubuntu machine in the following line in the file: ros = new ROSBridgeWebSocketConnection (&quot;&lt;ip address&gt;&quot;, &lt;port&gt;); for example: ros = new ROSBridgeWebSocketConnection (&quot;ws://192.168.0.100&quot;, 9090);",
+    "url": "http://localhost:4000/URSim/docs/user/howtosetup/",
+    "relUrl": "/docs/user/howtosetup/"
+  },
+  "8": {
+    "id": "8",
     "title": "Home",
     "content": "URSim | Documentation View URSim on GitHub",
     "url": "http://localhost:4000/URSim/",
     "relUrl": "/"
   },
-  "7": {
-    "id": "7",
+  "9": {
+    "id": "9",
     "title": "mission planner",
     "content": "mission planner few lines on mission planner launch MissionPlanner.launch scripts Heave.py Pitch.py Roll.py Sink.py Surge.py Sway.py Yaw.py launch The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). MissionPlanner.launch scripts The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). Heave.py Pitch.py Roll.py Sink.py Surge.py Sway.py Yaw.py",
     "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src/mission_planner",
     "relUrl": "/docs/repo_navigation/ros/src/mission_planner"
   },
-  "8": {
-    "id": "8",
+  "10": {
+    "id": "10",
     "title": "Navigating the repository",
     "content": "What is where in the repository Description of every file in every folder in the repository can be found by navigating down this tree.",
     "url": "http://localhost:4000/URSim/docs/repo_navigation",
     "relUrl": "/docs/repo_navigation"
   },
-  "9": {
-    "id": "9",
+  "11": {
+    "id": "11",
     "title": "ros",
     "content": "ROS contains all the ros code files.",
     "url": "http://localhost:4000/URSim/docs/repo_navigation/ros",
     "relUrl": "/docs/repo_navigation/ros"
   },
-  "10": {
-    "id": "10",
+  "12": {
+    "id": "12",
     "title": "Search",
     "content": "Search Set up search Generate search index Enable search in configuration Hiding pages from search Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: Page title Page content Page URL Set up search Generate search index Before you can use search, you must initialize the feature by running this rake command that comes with just-the-docs: $ bundle exec just-the-docs rake search:init This command creates the search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the assets/js/ directory of your Jekyll site with this content: {% raw %} { {% for page in site.html_pages %}{% if page.search_exclude != true %}&quot;{{ forloop.index0 }}&quot;: { &quot;id&quot;: &quot;{{ forloop.index0 }}&quot;, &quot;title&quot;: &quot;{{ page.title | replace: &#39;&amp;amp;&#39;, &#39;&amp;&#39; }}&quot;, &quot;content&quot;: &quot;{{ page.content | markdownify | strip_html | escape_once | remove: &#39;&#39; | remove: &#39;&#39; | remove: &#39;&#39; | replace: &#39; &#39;, &#39; &#39; | normalize_whitespace }}&quot;, &quot;url&quot;: &quot;{{ page.url | absolute_url }}&quot;, &quot;relUrl&quot;: &quot;{{ page.url }}&quot; }{% unless forloop.last %},{% endunless %} {% endif %}{% endfor %} }{% endraw %} Note: If you don’t run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site’s content). Enable search in configuration In your site’s _config.yml, enable search: # Enable or disable the site search search_enabled: true Hiding pages from search Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: Example layout: default title: Page not found nav_exclude: true search_exclude: true",
     "url": "http://localhost:4000/URSim/docs/search/",
     "relUrl": "/docs/search/"
   },
-  "11": {
-    "id": "11",
+  "13": {
+    "id": "13",
     "title": "sensors",
     "content": "sensor stuff has sensor stuff…as of now empty",
     "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src",
     "relUrl": "/docs/repo_navigation/ros/src"
   },
-  "12": {
-    "id": "12",
+  "14": {
+    "id": "14",
     "title": "unity",
     "content": "ROS contains all the ros code files.",
     "url": "http://localhost:4000/URSim/docs/repo_navigation/unity",
     "relUrl": "/docs/repo_navigation/unity"
   },
-  "13": {
-    "id": "13",
+  "15": {
+    "id": "15",
     "title": "User",
-    "content": "Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.",
+    "content": "#",
     "url": "http://localhost:4000/URSim/docs/user/",
     "relUrl": "/docs/user/"
   },
-  "14": {
-    "id": "14",
+  "16": {
+    "id": "16",
     "title": "vision",
     "content": "vision stuff has vision stuff…as of now empty",
     "url": "http://localhost:4000/URSim/docs/repo_navigation/ros/src",
