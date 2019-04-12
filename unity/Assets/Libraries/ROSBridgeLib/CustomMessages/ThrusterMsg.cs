@@ -33,7 +33,7 @@ namespace ROSBridgeLib {
 			}
 
 			public static string getMessageType() {
-				return "thrusters/ThrusterMsg";
+				return "control/thruster";
 			}
 
 			public int Gettd1() {
@@ -62,7 +62,7 @@ namespace ROSBridgeLib {
 			}
 
 			public override string ToString() {
-				return "thrusters/DepthThrusterMsg [td1=" + _td1 +
+				return "control/thruster [td1=" + _td1 +
 						", td2=" + _td2 + 
 						", td3=" + _td3 +  
 						", td4=" + _td4 +
