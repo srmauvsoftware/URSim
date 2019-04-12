@@ -16,7 +16,10 @@ public class AUV : MonoBehaviour {
 	int count;
 	DateTime lastFrame;
 	DateTime camStart;
-	public GameObject vehicle;
+    public GameObject vehicle;
+    public GameObject capsule;
+    public CapsuleCollider capsuleColl;
+
 	
     void Start(){
         ros = new ROSBridgeWebSocketConnection ("ws://192.168.0.100", 9090);
@@ -24,23 +27,22 @@ public class AUV : MonoBehaviour {
         ros.AddPublisher(typeof(DepthPublisher));
         // ros.AddPublisher(typeof(imuPublisher));
         ros.AddPublisher(typeof(HeadingPublisher));
-        ros.AddSubscriber(typeof(DepthThrusterCallback));		
-        ros.AddSubscriber(typeof(VectorThrusterCallback));		
+        ros.AddSubscriber(typeof(ThrusterCallback));		
         ros.AddSubscriber(typeof(ImuSubscriberCallback));
         ros.Connect ();
         count = 0;
         lastFrame = DateTime.Now;
         camStart = DateTime.Now;
-        
+        capsule = GameObject.Find ("Capsule");
     }
 
 
   void Update()
   {
-        StartCoroutine(SendImage());
-        StartCoroutine(SendDepth());
+        // StartCoroutine(SendImage());
+        // StartCoroutine(SendDepth());
         // StartCoroutine(SendImu());
-        StartCoroutine(SendHeading());
+        // StartCoroutine(SendHeading());
 
   }
 
@@ -114,6 +116,7 @@ public class AUV : MonoBehaviour {
 
         // float x = 0.00F;
         // float y = 0.00F;
+        Debug.Log(vehicle.transform.localScale);
         float theta = vehicle.transform.rotation.eulerAngles.y;
         var posemsg = new Float64Msg(theta);
         ros.Publish(HeadingPublisher.GetMessageTopic(), posemsg);
