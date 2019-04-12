@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: URSim Docs
 description: Documentation for SRM Autonomous Underwater Vehicle and URSim
-baseurl: "/URSim" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://srmauvsoftware.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
