@@ -5,8 +5,11 @@
 Shader "FX/Glass/Stained BumpDistort" {
 Properties {
 	_BumpAmt  ("Distortion", range (0,128)) = 10
-	_MainTex ("Tint Color (RGB)", 2D) = "white" {}
+	_MainTex ("Albedo Texture", 2D) = "white" {}
+	_ColorTint ("Tint", Color) = (0.6, 0.3, 0.6, 1.0)
 	_BumpMap ("Normalmap", 2D) = "bump" {}
+	_FogColor ("Fog Color", Color) = (0.3, 0.4, 0.7, 1.0)
+
 }
 
 Category {
