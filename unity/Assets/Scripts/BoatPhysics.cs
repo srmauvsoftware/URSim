@@ -93,7 +93,7 @@ namespace BoatTutorial
             // z - distance to surface
             // S - surface area
             // n - normal to the surface
-            Vector3 buoyancyForce = rho * Physics.gravity.y * triangleData.distanceToSurface * triangleData.area * triangleData.normal;
+            Vector3 buoyancyForce = rho * Physics.gravity.y * triangleData.distanceToSurface * triangleData.area * triangleData.normal / (boatRB.transform.localScale.x * boatRB.transform.localScale.y * boatRB.transform.localScale.z);
 
             //The vertical component of the hydrostatic forces don't cancel out but the horizontal do
             buoyancyForce.x = 0f;

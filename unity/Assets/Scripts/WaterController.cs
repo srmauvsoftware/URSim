@@ -46,6 +46,6 @@ public class WaterController : MonoBehaviour
         float waterHeight = GetWaveYPos(position, timeSinceStart);
         // print(position.y);
         float distanceToWater = position.y - waterHeight;
-        return distanceToWater;
+        return distanceToWater - 0.7f;
     }
 }
