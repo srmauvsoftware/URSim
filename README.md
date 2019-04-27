@@ -1,12 +1,11 @@
 <!-- <img src='docs/assets/unity_scene.png' align="right" width=200> -->
 # URSim
-<div><i><b>This repository is under construction.</b></i></div>
-
 Simulator for Unmanned Underwater Vehicles using ROS and Unity3D.
 <br>
-(to be presented at [UT'19 IEEE-OES conference](http://ut19.tori.org.tw/webpage/index.aspx) on April 17 '19)
 
-### [Project page](https://srmauvsoftware.github.io/URSim/) |   [Paper]()
+presented at [UT'19 IEEE-OES conference](http://ut19.tori.org.tw/webpage/index.aspx)
+
+### [Project page](https://srmauvsoftware.github.io/URSim/) |   [Presentation](https://docs.google.com/presentation/d/1ChLeVlUOYZ9LOEp-kk0C3HupoHN2Ctm8oyvjrr45BvY/edit?usp=sharing)
 
 <img src="docs/assets/unity_scene.png" width="1000px"/>
 
