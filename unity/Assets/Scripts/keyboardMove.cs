@@ -18,9 +18,11 @@ public class keyboardMove : MonoBehaviour {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveHorizontal2 = Input.GetAxis ("Horizontalmove");
         float moveVertical = Input.GetAxis ("Vertical");
+        float yaw = Input.GetAxis ("MouseY");
 
 		Vector3 movement = new Vector3 (moveHorizontal, moveHorizontal2, moveVertical);
         rb.AddForce (movement * 2500f);
+		rb.AddTorque(transform.up * 500 * yaw);
 	}
 	
 	// Update is called once per frame
